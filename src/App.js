@@ -1,18 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Welcome to Fullstack Development - 1</h1>
-        <h2>React JS Programming Week09 Lab exercise</h2>
-        <p>100675355</p>
-        <p>Hui Qiu</p>
-        <p>George Brown College, Toronto</p>
-        
-      </header>
+     <img src={logo} className="App-logo" alt="logo" />
+        <h1>{props.title}</h1>
+        <h2>{props.lab}</h2>
+        <p>{props.student_id}</p>
+        <p>{props.name}</p>
+        <p>{props.college}</p>
     </div>
   );
 }

@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App title="Welcome to Fullstack Development - 1" lab="React JS Programming Week09 Lab exercise" name="Hui Qiu" student_id="100675355" college="George Brown College, Toronto" />
   </React.StrictMode>
 );
 
